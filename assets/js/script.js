@@ -63,12 +63,12 @@ function limpiarCampoTexto() {
 
 function agregarTareaATabla(descripcionTarea) {
     if (descripcionTarea === '') {
-        alert('Por favor ingresar tarea, feliz ahora profe? :)');
+        alert('Por favor ingresar tarea');
         return
     }
     
     if (descripcionTarea.trim() === '') {
-        alert('buen intento profe, feliz ahora? :)))))))))))))))))))))))');
+        alert('Por favor intentar de nuevo');
         limpiarCampoTexto();
         return
     }
