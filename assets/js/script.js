@@ -68,7 +68,7 @@ function agregarTareaATabla(descripcionTarea) {
     }
     
     if (descripcionTarea.trim() === '') {
-        alert('Por favor intentar de nuevo');
+        alert('Por favor no ingresar caracteres en blanco');
         limpiarCampoTexto();
         return
     }
