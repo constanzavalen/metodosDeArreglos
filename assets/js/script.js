@@ -92,3 +92,5 @@ btnAgregar.addEventListener('click', () => {
 agregarTareasIniciales();
 
 //nueva funcion
+
+//se soluciona error
